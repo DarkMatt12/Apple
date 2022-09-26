@@ -1,0 +1,497 @@
+body{
+    margin: 0px;
+}
+.Cabecera{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+}
+
+.Cabecera__Menú{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 60px;
+    margin-right: 60px;
+   
+}
+
+.Cabecera__Menú__Icono{}
+
+.Cabecera__Menú__Icono__Apple{
+    width: 30px;
+    height: 30px;
+    margin-top: 12px;
+}
+
+.Cabecera__Menú__Icono__Info{
+    color: white;
+}
+
+.Cabecera__Diseño{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Cabecera__Diseño__Título{
+    color: white;
+    font-size: 45px;
+    font-weight: 900;
+    margin-bottom: 0px;
+}
+
+.Cabecera__Diseño__Subtítulo{
+    color: white;
+    font-size: 25px;
+    font-weight: 200;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.Cabecera__Diseño__Comprar{
+    display: flex;
+    
+}
+
+.Cabecera__Diseño__Comprar__Enlace{
+    margin: 9px;
+}
+
+.Cabecera__Diseño__Comprar__Enlace__ind{
+    color: aqua;
+    font-size: 20px;
+}
+
+.Cabecera__Diseño__Imagen{}
+
+.Cabecera__Diseño__Imagen__Iphone{}
+
+.Sección-1{}
+
+.S1-Producto{
+    background-color: rgb(247, 247, 247);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.S1-Producto__Título{
+    font-size: 45px;
+    font-weight: 900;
+    margin-bottom: 0px;
+}
+
+.S1-Producto__Subtítulo{
+    font-size: 25px;
+    font-weight: 200;
+    margin-top: 10px;
+}
+
+.S1-Producto__Descripción{
+    font-size: 25px;
+    font-weight: 200;
+    margin-top: 0px;
+    color: gray;
+}
+
+.S1-Producto__Comprar{
+    display: flex;
+}
+
+.S1-Producto__Comprar__Enlace{
+    margin: 9px;
+}
+
+.S1-Producto__Comprar__Enlace__ind{
+    color: blue;
+    font-size: 20px;
+}
+
+.S1-Producto__Imagen{}
+
+.S1-Producto__Imagen__Iphone{}
+
+.S1-Producto__Imagen__Watch{
+    width: 476px;
+    height: 452px;
+}
+
+.Sección-2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+
+/*Producto 1*/
+
+.S2-Producto-1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+    width: calc(50% - 10px);
+    height: 500px;
+    margin: 5px;
+    
+}
+
+.S2-Producto-1__Título{
+    font-size: 45px;
+    font-weight: 900;
+    margin-bottom: 0px;
+    margin-top: 40px;
+    color: white;
+}
+
+.S2-Producto-1__Subtítulo{
+    font-size: 25px;
+    font-weight: 200;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.S2-Producto-1__Comprar{
+    display: flex;
+    justify-content: space-between;
+    width: 250px;
+}
+
+.S2-Producto-1__Comprar__Enlace{}
+
+.S2-Producto-1__Comprar__Enlace__ind{
+    color: blue;
+    font-size: 20px;
+}
+
+.S2-Producto-1__Imagen{
+    margin-top: 20px;
+}
+
+.S2-Producto-1__Imagen__Apple{
+    width: 200px;
+    height: 200px;
+}
+
+/*Producto 2*/
+
+.S2-Producto-2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+    width: calc(50% - 10px);
+    height: 500px;
+    margin: 5px;
+    
+}
+
+.S2-Producto-2__Logo{
+    margin-top: 40px;
+}
+
+.S2-Producto-2__Subtítulo{
+    font-size: 25px;
+    font-weight: 200;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.S2-Producto-2__Comprar{
+    display: flex;
+    justify-content: space-between;
+    width: 250px;
+}
+
+.S2-Producto-2__Comprar__Enlace{}
+
+.S2-Producto-2__Comprar__Enlace__ind{
+    color: blue;
+    font-size: 20px;
+}
+
+.S2-Producto-2__Imagen{
+    margin-top: 20px;
+}
+
+.S2-Producto-2__Imagen__Apple{
+    width: 200px;
+    height: 200px;
+}
+
+/*Producto 3*/
+
+.S2-Producto-3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(247, 247, 247);
+    width: calc(50% - 10px);
+    height: 500px;
+    margin: 5px;
+}
+
+.S2-Producto-3__Logo{
+    margin-top: 40px;
+}
+
+.S2-Producto-3__Logo__Imagen{
+    width: 195px;
+    height: 64px;
+}
+
+.S2-Producto-3__Subtítulo{
+    font-size: 25px;
+    font-weight: 200;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    color: black;
+}
+
+.S2-Producto-3__Comprar{
+    display: flex;
+    justify-content: space-between;
+    width: 250px;
+}
+
+.S2-Producto-3__Comprar__Enlace{}
+
+.S2-Producto-3__Comprar__Enlace__ind{
+    color: blue;
+    font-size: 20px;
+}
+
+.S2-Producto-3__Imagen{}
+
+.S2-Producto-3__Imagen__Apple{
+    width: 284px;
+    height: 260px;
+}
+
+/*Producto 4*/
+
+.S2-Producto-4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(240, 240, 240);
+    width: calc(50% - 10px);
+    height: 500px;
+    margin: 5px;
+}
+
+.S2-Producto-4__Logo{
+    margin-top: 40px;
+}
+
+.S2-Producto-4__Logo__Imagen{}
+
+.S2-Producto-4__Subtítulo{
+    font-size: 25px;
+    font-weight: 200;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    color: black;
+}
+
+.S2-Producto-4__Comprar{
+    display: flex;
+    justify-content: space-between;
+    width: 250px;
+}
+
+.S2-Producto-4__Comprar__Enlace{}
+
+.S2-Producto-4__Comprar__Enlace__ind{
+    color: blue;
+    font-size: 20px;
+}
+
+.S2-Producto-4__Imagen{}
+
+.S2-Producto-4__Imagen__Apple{
+    width: 473px;
+    height: 233px;
+}
+
+/*Producto 5*/
+
+.S2-Producto-5{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(240, 240, 240);
+    width: calc(50% - 10px);
+    height: 500px;
+    margin: 5px;
+}
+
+.S2-Producto-5__Título{
+    font-size: 45px;
+    font-weight: 900;
+    margin-bottom: 0px;
+    color: black;
+}
+
+.S2-Producto-5__Subtítulo{
+    font-size: 25px;
+    font-weight: 200;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    color: black;
+}
+
+.S2-Producto-5__Comprar{
+    display: flex;
+    justify-content: center;
+    width: 250px;
+}
+
+.S2-Producto-5__Comprar__Enlace{}
+
+.S2-Producto-5__Comprar__Enlace__ind{
+    color: blue;
+    font-size: 20px;
+}
+
+.S2-Producto-5__Imagen{}
+
+.S2-Producto-5__Imagen__Apple{
+    width: 440px;
+    height: 308px;
+}
+
+/*Producto 6*/
+
+.S2-Producto-6{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(247, 247, 247);
+    width: calc(50% - 10px);
+    height: 500px;
+    margin: 5px;
+}
+
+.S2-Producto-6__Título{
+    font-size: 45px;
+    font-weight: 900;
+    margin-bottom: 0px;
+    margin-top: 40px;
+    color: black;
+}
+
+.S2-Producto-6__Subtítulo{}
+
+.S2-Producto-6__Comprar{
+    display: flex;
+    justify-content: space-between;
+    width: 250px;
+}
+
+.S2-Producto-6__Comprar__Enlace{}
+
+.S2-Producto-6__Comprar__Enlace__ind{
+    color: blue;
+    font-size: 20px;
+}
+
+.S2-Producto-6__Imagen{
+    margin-top: 20px;
+}
+
+.S2-Producto-6__Imagen__Apple{}
+
+.Sección-3{}
+
+.S3-Imagen{
+    margin: 5px;
+}
+
+.S3-Imagen__Luck{
+    width: 100%;
+}
+
+.Pie-Página{
+    background-color: rgb(240, 240, 240);
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 5px;
+    padding-bottom: 40px;
+}
+
+.Pie-Página__Info{
+    border-bottom: 1px solid lightgrey;
+}
+
+.Pie-Página__Info__Texto{
+    color: gray;
+    font-size: 12px;
+}
+
+.Pie-Página__Opciones{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.Pie-Página__Opciones__Textos{}
+
+.Pie-Página__Opciones__Texto{
+    margin-top: 25px;
+}
+
+.Pie-Página__Opciones__Texto__Título{
+    font-weight: 900;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+.Pie-Página__Opciones__Texto__Info{
+    font-size: 13px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.Pie-Página__Tlf{
+    border-bottom: 1px solid lightgray;
+}
+
+.Pie-Página__Tlf__Texto{
+    color: gray;
+    font-size: 12px;
+}
+
+.Pie-Página__Derechos{}
+
+.Pie-Página__Derechos__Texto{
+    display: flex;
+    justify-content: space-between;
+}
+
+.Pie-Página__Derechos__Texto__Texto{}
+
+.Pie-Página__Derechos__Texto__Texto__Texto{
+    color: gray;
+    font-size: 12px;
+}
+
+.Pie-Página__Derechos__Opciones{
+    display: flex; 
+}
+
+.Pie-Página__Derechos__Opciones__Texto{
+    padding-left: 5px;
+    padding-right: 5px;
+
+    border-left: 1px solid lightgrey;
+    border-right: 1px solid lightgrey;
+}
+
+.Pie-Página__Derechos__Opciones__Texto__Texto{
+    font-size: 13px;
+}
